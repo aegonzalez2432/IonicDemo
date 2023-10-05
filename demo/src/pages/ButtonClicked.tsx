@@ -1,18 +1,9 @@
 import {
-    IonBackButton,
-    IonButtons,
-    IonButton,
-    IonImg,
-    IonHeader,
-    IonContent,
-    IonToolbar,
-    IonTitle, IonCard, IonCardContent, CreateAnimation,
+    IonCard,
+    IonCardContent,
 } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './ButtonClicked.css';
 import React from "react";
-import {IonReactRouter} from "@ionic/react-router";
-import {Redirect, Route} from "react-router-dom";
 
 const ButtonClicked: React.FC = () => {
     return (
